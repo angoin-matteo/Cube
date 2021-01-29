@@ -1,0 +1,31 @@
+body {
+    margin:0;
+    padding:0;
+    
+}
+
+.container {
+    position:fixed;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    width:25%;
+    height:75%;
+    background: linear-gradient(45deg,rgb(200 0 200),rgb(0 0 200));
+    box-shadow: 0 0 15px 5px lightgray;
+    transition:0.125s;
+    border-radius: 20px;
+}
+.container:hover {
+    top:47.5%;
+    transition:0.125s;
+}
+.text {
+    margin:10px;
+    text-align:center;
+    font-family:Arial,Helvetica,sans-serif;
+    font-weight:400;
+    font-size:30px;
+}
+
+
